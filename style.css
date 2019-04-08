@@ -1,0 +1,129 @@
+p {
+    color: white;
+}
+
+
+.physical .emotional .behavioral{
+
+}
+
+
+.physical{
+background-color: #4169E1;
+
+}
+
+.emotional{
+background-color: #8A2BE2;
+}
+
+
+.behavioral{
+background-color: green;
+}
+
+h2 .subheading{
+    vertical-align:middle;
+    text-align:center;
+}
+
+.container {
+  text-align:center;
+  vertical-align:center;
+  
+}
+
+
+.containercontent{
+  text-align:center;
+  vertical-align:middle;
+  
+}
+
+
+
+h1{
+    color:white;
+    
+    
+}
+
+h3 h4{
+  color:white;
+  text-shadow: #0000FF; 
+}
+
+
+h5 {
+    text-align: center;
+}
+
+.barheading{
+    vertical-align: middle;
+    text-align: center;
+}
+
+
+.phyh1{
+ text-shadow: #0000FF;  
+}
+
+body {
+ background:url();   
+}
+
+
+
+
+
+h2{
+    color:red;
+    text-shadow: 2px 2px white;
+    font: bold;
+}
+.instructions {
+    color: black;
+}
+
+.subheading {
+   color: black; 
+}
+
+.man {
+   vertical-align: middle;
+   border-radius:50%;
+   width:20%;
+}
+
+.form-control {
+    width:25%;
+    display: inline;
+}
+
+.buttonQs{
+    background-color: yellow;
+}
+
+
+
+.horizontal-line {
+    border: none;
+    height: 1px;
+    color: grey; 
+    background-color: grey;
+    width: 500px;
+    margin-top: 80px;
+}
+
+.horizontal-line1 {
+    border: none;
+    height: 1px;
+    color: grey; 
+    background-color: grey;
+    width: 300px;
+}
+
+.row-color {
+    color: white;
+    margin-bottom: 50px;
+}

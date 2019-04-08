@@ -1,0 +1,50 @@
+{% load staticfiles %}
+<!DOCTYPE html>
+
+<html>
+
+<head>
+    <title>Know your Kryptonite</title>
+    
+    <meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Hello...</title>
+<link rel="stylesheet" href="{% static 'css/style.css' %}" type="text/css" > 
+<link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/dc/3.0.12/dc.min.css"/>
+
+ 
+ 
+ 
+ <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/d3/5.9.2/d3.min.js"></script>
+ 
+ <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/crossfilter/1.3.12/crossfilter.min.js"></script>
+ <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/dc/3.0.12/dc.js"></script>
+ <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/queue-async/1.0.7/queue.min.js"></script>
+ <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+ <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+ 
+    </style>
+</head>
+
+<body>
+       
+   <header>
+   <section class="container">
+  <img class="img-fluid mb-5 d-block mx-auto man" src="/static/img/manlogo1.png" alt="">
+  <h2>Know Your Kryptonite</h2><br>
+  <h3>How to maintain a healthy<br> emotional, physical and behavioral balance <br> in the work place to avoid workplace burnout</h3>
+  <br>
+  </header>
+<div>
+       
+     {% block maincontent %}
+     {% endblock maincontent %}
+     
+    <script type="text/javascript" src="/static/js/thegraph.js"></script> 
+   
+</body>
+</html>
+    
+        
+    
+    

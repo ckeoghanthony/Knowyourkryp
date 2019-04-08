@@ -1,0 +1,135 @@
+
+
+{% block contentsignup %}
+
+
+
+<br><br><br>
+
+<div>
+<form method="post" action="/accounts/register/" class="accountform" >
+        <fieldset class="form-group">
+            <legend>Create a new account</legend>
+            <p>Already got an account? <a href="/accounts/migrations/templates/login.html">Sign In</a></p>
+            <input type="hidden" name="csrfmiddlewaretoken" value="0ZQ8Pr08bniGK58BrZ0qq1Ckh3SIC7ygcLH2FIeU2sIu9AJoNSD2MBsqVhinQJKI">
+            
+
+
+
+
+    
+
+
+    <div id="div_id_username" class="form-group  " >
+
+        
+            <label for="id_username" class="control-label required-field ">
+                Username
+            </label>
+        
+
+        
+        
+        
+            
+                <div class="">
+                    <input type="text" name="username" maxlength="150" autofocus="" class=" form-control" required="" id="id_username">
+                    
+                    
+    <p class="help-block">Required. 150 characters or fewer. Letters, digits and @/./+/-/_ only.</p>
+
+                </div>
+            
+        
+    </div>
+
+
+
+    
+
+
+    <div id="div_id_email" class="form-group  ">
+
+        
+            <label for="id_email" class="control-label  ">
+                Email address
+            </label>
+        
+
+        
+        
+        
+            
+                <div class="">
+                    <input type="email" name="email" maxlength="254" class=" form-control" id="id_email">
+                    
+                    
+                </div>
+            
+        
+    </div>
+
+
+
+    
+
+
+    <div id="div_id_password1" class="form-group  ">
+
+        
+            <label for="id_password1" class="control-label required-field ">
+                Password
+            </label>
+        
+
+        
+        
+        
+            
+                <div class="">
+                    <input type="password" name="password1" class=" form-control" required="" id="id_password1">
+                    
+                    
+                </div>
+            
+        
+    </div>
+
+
+
+    
+
+
+    <div id="div_id_password2" class="form-group  ">
+
+        
+            <label for="id_password2" class="control-label required-field ">
+                Password Confirmation
+            </label>
+        
+
+        
+        
+        
+            
+                <div class="">
+                    <input type="password" name="password2" class=" form-control" required="" id="id_password2">
+                    
+                    
+                </div>
+            
+        
+    </div>
+
+
+
+
+            <button type="submit" class="btn btn-primary">Create account</button>
+        </fieldset>
+    </form>
+    
+    </div>
+<br><br><br>
+
+
+{% endblock contentsignup %}
